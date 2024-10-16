@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/view/components/footer";
 import Navbar from "@/view/components/navbar";
+import Paddingatas from "@/view/components/padding";
 
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar/>
+        <Paddingatas/>
         {children}
         <Footer/>
       </body>

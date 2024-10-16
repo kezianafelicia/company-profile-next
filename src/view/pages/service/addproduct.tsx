@@ -7,7 +7,7 @@ export default function Addproduct() {
     {
       Icon: GiWindowBars,
       title: "Window Cleaning",
-      price: "Rp 350.000,00",
+      price: "Rp 50.000,00",
       description: [
         "Crystal-clear window cleaning",
         "Interior & exterior options",
@@ -16,8 +16,8 @@ export default function Addproduct() {
     },
     {
       Icon: GiVacuumCleaner,
-      title: "Carpet & Upholstery Cleaning",
-      price: "Rp 600.000,00",
+      title: "Carpet Cleaning",
+      price: "Rp 90.000,00",
       description: [
         "Deep cleaning for carpets and sofas",
         "Eliminates dust mites and allergens",
@@ -27,7 +27,7 @@ export default function Addproduct() {
     {
       Icon: ImTree,
       title: "Post-Construction Cleaning",
-      price: "Rp 800.000,00",
+      price: "Rp 600.000,00",
       description: [
         "Thorough cleaning after renovation",
         "Removes debris and dust",
@@ -37,7 +37,7 @@ export default function Addproduct() {
   ];
 
   return (
-    <div className="w-full py-[10rem] px-4 text-[#493628]">
+    <div className="w-full py-20 px-4 text-[#493628]">
       <div className="text-[#493628] md:order-1 mt-8 md:mt-0 text-center ">
         <h2 className="text-4xl font-bold mb-4">Additional Services</h2>
         <p className="text-xl">
@@ -46,7 +46,7 @@ export default function Addproduct() {
       </div>
 
 
-      <div className="max-w-[1240px] py-20 mx-auto grid md:grid-cols-3 gap-8">
+      <div className="py-20 mx-auto grid md:grid-cols-3 gap-8">
         {addproducts.map((addproduct, index) => (
           <Cards
             key={index}

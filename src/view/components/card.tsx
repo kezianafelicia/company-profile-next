@@ -26,7 +26,7 @@ export default function Cards(props: ICards) {
       )}
 
       <h2 className="text-2xl font-bold text-center py-8 ">{props.title}</h2>
-      {props.price && <p className="text-center text-4xl font-bold">{props.price}</p>}
+      {props.price && <p className="text-center text-4xl font-bold pb-5">{props.price}</p>}
       <div className="text-center font-medium">
         {props.description.map((desc, index) => (
           <p key={index} className="py-1 border-b mx-4 mt-1">{desc}</p>

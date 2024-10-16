@@ -37,14 +37,14 @@ export default function Product() {
   ];
 
   return (
-    <div className="w-full py-[10rem] px-4 text-[#493628]">
+    <div className="w-full py-20 px-4 text-[#493628]">
            <div className="text-[#493628] md:order-1 mt-8 md:mt-0 text-center ">
             <h2 className="text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-xl">
             We provide a range of professional cleaning services tailored to meet the diverse needs of our clients.
             </p>
           </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 py-20 px-2">
+      <div className="mx-auto grid md:grid-cols-3 gap-8 py-20 px-2">
         {products.map((product, index) => (
           <Cards
             key={index}

@@ -7,43 +7,56 @@ export default function Footer() {
     "Customized Cleaning"
   ];
 
+  const addservices = [
+    "Window Cleaning",
+    "Carpet Cleaning",
+    "Post-Construction Cleaning"
+  ];
+
   return (
-    <div className="mx-auto py-6 px-2 grid lg:grid-cols-3 gap-8 bg-[#33251c] text-[#E4E0E1]">
+    <div className="w-full bg-[#33251c] text-[#E4E0E1] py-2 p-5">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-60 text-center md:text-left">
 
-      <div>
-        <h1 className="w-full text-2xl font-bold text-[#E4E0E1]">About Us</h1>
-        <p className="font-medium text-[#E4E0E1] mt-4 text-sm py-2 justify">
-          We are a professional cleaning service committed to delivering high-quality residential and commercial cleaning solutions. Our team is dedicated to providing customized cleaning tailored to meet your needs.
-        </p>
-      </div>
+        <div className="flex flex-col justify-center text-left">
+          <h1 className="text-xl font-bold">Our Services</h1>
+          <ul className="mt-2">
+            {services.map((service, index) => (
+              <li key={index} className="py-1 text-m hover:text-gray-300 cursor-pointer">
+                {service}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-      <div>
-        <h1 className="w-full text-2xl font-bold text-[#E4E0E1]">Our Services</h1>
-        <ul className="font-medium text-[#E4E0E1] mt-4">
-          {services.map((service, index) => (
-            <li key={index} className="py-2 text-sm">{service}</li>
-          ))}
-        </ul>
-      </div>
+        <div className="flex flex-col justify-center text-left">
+          <h1 className="text-xl font-bold">Additional Services</h1>
+          <ul className="mt-2">
+            {addservices.map((addservice, index) => (
+              <li key={index} className="py-1 text-m hover:text-gray-300 cursor-pointer">
+                {addservice}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-      <div>
-        <h1 className="w-full text-2xl font-bold text-[#E4E0E1]">Contact Us</h1>
-        <div className="flex flex-col items-start mt-4">
-          <div className="flex items-center my-2">
-            <FaFacebookSquare size={20} className="cursor-pointer" />
-            <span className="ml-2">Facebook</span>
-          </div>
-          <div className="flex items-center my-2">
-            <FaInstagram size={20} className="cursor-pointer" />
-            <span className="ml-2">Instagram</span>
-          </div>
-          <div className="flex items-center my-2">
-            <FaTwitterSquare size={20} className="cursor-pointer" />
-            <span className="ml-2">Twitter</span>
+        <div className="flex flex-col justify-center items-start">
+          <h1 className="text-xl font-bold">Contact Us</h1>
+          <div className="flex flex-col mt-2 space-y-2 text-left">
+            <div className="flex items-center hover:text-gray-300 cursor-pointer">
+              <FaFacebookSquare size={18} />
+              <span className="ml-2">Facebook: @Cleanex</span>
+            </div>
+            <div className="flex items-center hover:text-gray-300 cursor-pointer">
+              <FaInstagram size={18} />
+              <span className="ml-2">Instagram: @cleanex</span>
+            </div>
+            <div className="flex items-center hover:text-gray-300 cursor-pointer">
+              <FaTwitterSquare size={18} />
+              <span className="ml-2">Twitter: @cleanex</span>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 }

@@ -36,7 +36,7 @@ export default function Culture() {
       {values.map((value, index) => (
         <div
           key={index}
-          className="flex flex-col w-full rounded-lg text-dave-forest overflow-hidden transition-all duration-350 p-10 md:p-12 justify-center items-center text-center bg-[#fee9e8] md:basis-[calc(33.33%-1.67rem)]"
+          className="flex flex-col w-full rounded-lg  transition-all duration-350 p-10 md:p-12 justify-center items-center text-center bg-[#fee9e8] md:basis-[calc(33.33%-1.67rem)]"
         >
           <div className="mb-7 md:mb-10 text-[#ff615e]">{value.logo}</div>
           <h5 className="text-2xl font-bold m-0 text-inherit mb-2">{value.title}</h5>
