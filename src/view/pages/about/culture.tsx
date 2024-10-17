@@ -25,21 +25,21 @@ export default function Culture() {
 
   return (
     <div>
-          <div className="w-full py-16 px-4 bg-white text-[#493628]">
-      <div className="text-gray-800 md:order-1 mt-8 md:mt-0 text-center">
+          <div className="mx-auto py-20 px-4 md:px-8 bg-white text-[#493628]">
+      <div className=" md:order-1 mt-8 md:mt-0 text-center">
             <h2 className="text-4xl font-bold mb-4">Culture</h2>
             <p className="text-xl">
             At Cleanex, our culture is built on a strong foundation of shared values that guide every aspect of our business.
             </p>
           </div>
-    <div className="flex flex-wrap justify-center gap-4 md:gap-10 py-20">
+    <div className="flex flex-wrap justify-center gap-4 md:gap-10 py-10">
       {values.map((value, index) => (
         <div
           key={index}
-          className="flex flex-col w-full rounded-lg  transition-all duration-350 p-10 md:p-12 justify-center items-center text-center bg-[#fee9e8] md:basis-[calc(33.33%-1.67rem)]"
+          className="flex flex-col w-full rounded-lg  transition-all duration-350 md:p-12 justify-center items-center text-center bg-[#fee9e8] md:basis-[calc(33.33%-1.67rem)]"
         >
           <div className="mb-7 md:mb-10 text-[#ff615e]">{value.logo}</div>
-          <h5 className="text-2xl font-bold m-0 text-inherit mb-2">{value.title}</h5>
+          <h5 className="text-2xl font-bold m-0 mb-2">{value.title}</h5>
           <div className="text-lg font-light">
             <p>{value.description}</p>
           </div>

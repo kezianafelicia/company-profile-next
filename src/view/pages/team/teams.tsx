@@ -50,15 +50,11 @@ export default function Teams() {
   ];
 
   return (
-    <div className="py-8 px-4">
-      <div className="text-center max-w-4xl mx-auto py-12 text-[#33251c]">
-        <h2 className="text-5xl font-bold mb-4">Meet Our Team</h2>
-        <p className="text-xl py-6 text-[#33251c]">
-          Our team is the heart of our company. At Cleanex, we believe that the
-          strength of our service comes from the people behind it. Every team
-          member is carefully selected, fully trained, and shares our commitment
-          to providing outstanding service. Here are a few key members of our
-          exceptional team:
+    <div className="mx-auto py-20 px-4 md:px-8">
+      <div className="text-center  mx-auto py-12 text-[#33251c]">
+        <h2 className="text-4xl font-bold mb-4">Meet Our Team</h2>
+        <p className="text-xl py-2 text-[#33251c]">
+          Here are a few key members of our exceptional team:
         </p>
       </div>
 

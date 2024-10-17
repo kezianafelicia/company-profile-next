@@ -14,8 +14,8 @@ export default function Footer() {
   ];
 
   return (
-    <div className="w-full bg-[#33251c] text-[#E4E0E1] py-2 p-5">
-      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-60 text-center md:text-left">
+    <div className="w-full bg-[#33251c] text-[#E4E0E1] py-2">
+      <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
 
         <div className="flex flex-col justify-center text-left">
           <h1 className="text-xl font-bold">Our Services</h1>

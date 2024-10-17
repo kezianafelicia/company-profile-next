@@ -22,14 +22,14 @@ export default function Testimonial() {
       title: "Nicholas Saputra",
       heading: "Best Cleaning Service Ever!",
       content:
-        "I've tried several cleaning services, but Kinclong is by far the best. They pay attention to every detail, and I love that they use eco-friendly products!",
+        "I've tried several cleaning services, but Cleanex is by far the best. They pay attention to every detail, and I love that they use eco-friendly products!",
     }
   ];
 
   return (
     <div className="w-full py-20 px-4 bg-white text-[#493628]">
       <div className=" md:order-1 mt-8 md:mt-0 text-center">
-            <h2 className="text-4xl font-bold mb-4">Our Customers' Testimonial</h2>
+            <h1 className="text-4xl font-bold mb-4">Our Customers' Testimonial</h1>
             <p className="text-xl">
             Let's hear what they say about us!
             </p>

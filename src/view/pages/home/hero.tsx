@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <div className="h-screen bg-cover bg-center bg-no-repeat mt-28" style={{ backgroundImage: `url('/picture/home.jpeg')` }}>
-      <div className="max-w[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <h1 className="text-[#493628] md:text-7xl sm:text-6xl text-5xl font-extrabold md:py-6">Spotless Results Every Time</h1>
+    <div className=" bg-cover bg-center bg-no-repeat mt-28" style={{ backgroundImage: `url('/picture/home.jpeg')` }}>
+      <div className="mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center">
+        <h1 className="md:text-7xl sm:text-6xl text-5xl font-extrabold md:py-6 text-[#493628]">Spotless Results Every Time</h1>
         <p className="md:text-4xl sm:text-3xl text-xl font-bold pl-2 py-6 text-[#843028]">HIGHLY PROFESSIONAL CLEANING</p>
         <p className="md:text-xl md:pl-4 text-l font-bold py-1">
          We are committed to delivering professional cleaning services that make your home and workplace sparkle.
