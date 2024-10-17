@@ -18,7 +18,7 @@ export default async function Isicontentful() {
   const blogs = await getBlogContentful();
   return (
     <div className="mx-auto py-20 px-4 md:px-8">
-      <div className=" items-center text-justify bg-white rounded-lg space-x-4 grid grid-cols-1 sm:grid-cols-2 p-20">
+      <div className=" items-center text-justify bg-white text-[#33251c] rounded-lg space-x-4 grid grid-cols-1 sm:grid-cols-2 p-20">
         {blogs &&
           blogs.items?.map((blog, idx) => (
             <div

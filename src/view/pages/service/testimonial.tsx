@@ -34,7 +34,7 @@ export default function Testimonial() {
             Let's hear what they say about us!
             </p>
           </div>
-      <div className=" mx-auto grid md:grid-cols-3 gap-8 py-9 ">
+      <div className=" mx-auto grid lg:grid-cols-3 gap-8 py-9 ">
         {testimonial.map((testimonial, index) => (
           <Box
             key={index}
