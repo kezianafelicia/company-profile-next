@@ -21,7 +21,7 @@ export default function Footer() {
           <h1 className="text-sm md:text-lg font-bold">Our Services</h1>
           <ul className="mt-2">
             {services.map((service, index) => (
-              <li key={index} className="py-1 text-sm md:text-m hover:text-gray-300 cursor-pointer">
+              <li key={index} className="py-1 text-sm md:text-m \">
                 {service}
               </li>
             ))}
@@ -32,7 +32,7 @@ export default function Footer() {
           <h1 className="text-sm md:text-lg font-bold">Additional Services</h1>
           <ul className="mt-2">
             {addservices.map((addservice, index) => (
-              <li key={index} className="py-1 text-sm md:text-m  hover:text-gray-300 cursor-pointer">
+              <li key={index} className="py-1 text-sm md:text-m">
                 {addservice}
               </li>
             ))}

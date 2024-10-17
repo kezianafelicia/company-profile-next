@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <div className=" bg-cover bg-center bg-no-repeat mt-28" style={{ backgroundImage: `url('/picture/home.jpeg')` }}>
+    <div className=" bg-cover bg-center bg-no-repeat mt-28" style={{ backgroundImage: `url('/picture/home.webp')` }}>
       <div className="mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center">
         <h1 className="md:text-7xl sm:text-6xl text-5xl font-extrabold md:py-6 text-[#493628]">Spotless Results Every Time</h1>
         <p className="md:text-4xl sm:text-3xl text-xl font-bold pl-2 py-6 text-[#843028]">HIGHLY PROFESSIONAL CLEANING</p>

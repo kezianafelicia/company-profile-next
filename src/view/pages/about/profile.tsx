@@ -8,7 +8,7 @@ export default function CompanyProfile() {
         <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
           <div className="md:order-2">
             <img
-              src="picture/cleaner.jpg"
+              src="picture/cleaner.webp"
               alt="grow-better"
               className="rounded-lg shadow-md w-full h-auto"
             />
@@ -26,7 +26,7 @@ export default function CompanyProfile() {
         <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
           <div>
             <img
-              src="picture/cleaningsupply.jpg"
+              src="picture/cleaningsupply.webp"
               alt="Cleaning Supply"
               className="rounded-lg shadow-md w-full h-auto"
             />

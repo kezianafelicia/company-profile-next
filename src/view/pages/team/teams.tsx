@@ -51,7 +51,7 @@ export default function Teams() {
 
   return (
     <div className="mx-auto py-20 px-4 md:px-8">
-      <div className="text-center  mx-auto py-12 text-[#33251c]">
+      <div className="text-center  mx-auto text-[#33251c]">
         <h2 className="text-4xl font-bold mb-4">Meet Our Team</h2>
         <p className="text-xl py-2 text-[#33251c]">
           Here are a few key members of our exceptional team:

@@ -4,21 +4,21 @@ import Box from "@/view/components/box";
 export default function Testimonial() {
   const testimonial = [
       {
-        imageUrl: "picture/rachel.jpg",
+        imageUrl: "picture/rachel.webp",
       title: "Rachel Venya",
       heading: "Thorough and Efficient!",
       content:
         "I’m so impressed with the service! The staff was professional and friendly, and my office has never looked better. I will definitely use them again!",
     },
     {
-      imageUrl: "picture/igun.jpg",
+      imageUrl: "picture/igun.webp",
       title: "Ivan Gunawan",
       heading: "UNNCCHHH CLEANEXX!!",
       content:
         "The team from Cleanex did an incredible job on my home. They were thorough, efficient, and left everything sparkling clean! Recommended!!",
     },
     {
-      imageUrl: "picture/niscap.jpg",
+      imageUrl: "picture/niscap.webp",
       title: "Nicholas Saputra",
       heading: "Best Cleaning Service Ever!",
       content:
