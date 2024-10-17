@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full top-0 left-0 z-50 text-[#E4E0E1] bg-[#33251c] shadow ">
-      <div className="flex justify-between items-center h-20 font-bold max-w-[1240px] mx-auto px-8">
+      <div className="flex justify-between items-center h-20 font-bold mx-auto px-8">
         <div className="grid grid-cols-2">
           <Link href="/">
           <Image className="w-[150px]" src="/picture/logo.png" alt="logo" width={150} height={50} />
